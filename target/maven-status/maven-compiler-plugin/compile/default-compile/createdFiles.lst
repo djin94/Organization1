@@ -1,0 +1,5 @@
+ru\kabatov\controller\SiteController.class
+ru\kabatov\domain\Positions.class
+ru\kabatov\domain\Groups.class
+ru\kabatov\controller\UserController.class
+ru\kabatov\domain\Users.class

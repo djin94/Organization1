@@ -3,7 +3,7 @@ package ru.kabatov.domain;
 /**
  * Created by Кабатов on 24.08.2017.
  */
-public class Groups {
+public class Groups implements Organization{
     private int id;
     private String title;
 
@@ -14,7 +14,7 @@ public class Groups {
 
     public Groups() {
     }
-
+    @Override
     public int getId() {
         return id;
     }

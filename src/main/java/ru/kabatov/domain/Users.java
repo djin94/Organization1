@@ -3,7 +3,7 @@ package ru.kabatov.domain;
 /**
  * Created by Кабатов on 24.08.2017.
  */
-public class Users {
+public class Users implements Organization{
     private int id;
     private String username;
     private int groupId;
@@ -18,7 +18,7 @@ public class Users {
         this.groupId = groupId;
         this.positionId = positionId;
     }
-
+    @Override
     public int getId() {
         return id;
     }

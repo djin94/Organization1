@@ -21,8 +21,8 @@
         <property name="current_session_context_class">thread</property>
         <property name="hibernate.enable_lazy_load_no_trans">true</property>
         <!-- List of XML mapping files -->
-        <mapping resource="ru/kabatov/domain/Users.hbm.xml"/>
-        <mapping resource="ru/kabatov/domain/Positions.hbm.xml"/>
-        <mapping resource="ru/kabatov/domain/Groups.hbm.xml"/>
+        <mapping resource="Users.hbm.xml"/>
+        <mapping resource="Positions.hbm.xml"/>
+        <mapping resource="Groups.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,2 @@
+call mvn install:install-file  -Dfile=E:\Java\Organization1\src\main\resources\spring-webmvc-4.3.10.RELEASE.jar -DgroupId=org.springframework -DartifactId=spring-webmvc -Dversion=4.3.10.release -Dpackaging=jar
+call mvn install:install-file  -Dfile=E:\Java\Organization1\src\main\resources\spring-orm-4.3.10.RELEASE.jar -DgroupId=org.springframework -DartifactId=spring-orm -Dversion=4.3.10.release -Dpackaging=jar

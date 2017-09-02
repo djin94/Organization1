@@ -7,15 +7,7 @@
           <element id="module-output" name="Organization1" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.jar" output-file-name="spring-webmvc-4.0.5.release.jar" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.10.release" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.2.6.Final" />
@@ -37,8 +29,10 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.5.RELEASE" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.0.5.RELEASE/spring-orm-4.0.5.RELEASE.jar" output-file-name="spring-orm-4.0.5.release.jar" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.10.release" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1" />
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.2.1" />
@@ -46,6 +40,11 @@
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901-1.jdbc4" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Maven: junit:junit:4.8.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

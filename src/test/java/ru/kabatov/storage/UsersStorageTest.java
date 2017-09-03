@@ -6,16 +6,18 @@ import ru.kabatov.domain.Users;
 
 
 import java.util.ArrayList;
-import java.util.HashSet;
 
 import static org.junit.Assert.*;
 
 
 public class UsersStorageTest {
     @Test
+    @Ignore
     public void getTest(){
         UsersStorage usersStorage = new UsersStorage();
-        ArrayList<Users> users = new ArrayList<>();
+        ArrayList<Users> users = new ArrayList<>(usersStorage.values());
+        for (Users user:users)
+            System.out.println(user.getId() + " "+user.getUsername()+" "+user.getGroup().getTitle()+" "+user.getPosition().getTitle());
     }
 
 }

@@ -7,21 +7,22 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import ru.kabatov.domain.Organization;
-import ru.kabatov.domain.Users;
 
-import java.util.Collection;
+import java.io.File;
+import java.util.List;
 
 public abstract class Storage<T extends Organization> {
     protected final SessionFactory factory;
     public Storage() {
         Configuration configuration = new Configuration();
+       //configuration.configure(new File("src/main/resources/hibernate.cfg.xml"));
         configuration.configure();
         ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
                 configuration.getProperties()).build();
         factory = configuration.buildSessionFactory(serviceRegistry);
     }
 
-    public abstract Collection<T> values();
+    public abstract List<T> values();
 
     public int add(final T var){
         final Session session = factory.openSession();

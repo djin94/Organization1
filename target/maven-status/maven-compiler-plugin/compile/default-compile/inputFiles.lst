@@ -1,5 +1,11 @@
-C:\Docs\Java\Organization1\src\main\java\ru\kabatov\domain\Users.java
-C:\Docs\Java\Organization1\src\main\java\ru\kabatov\domain\Positions.java
-C:\Docs\Java\Organization1\src\main\java\ru\kabatov\domain\Groups.java
-C:\Docs\Java\Organization1\src\main\java\ru\kabatov\controller\SiteController.java
-C:\Docs\Java\Organization1\src\main\java\ru\kabatov\controller\UserController.java
+E:\Java\Organization1\src\main\java\ru\kabatov\storage\GroupsStorage.java
+E:\Java\Organization1\src\main\java\ru\kabatov\domain\UserJoin.java
+E:\Java\Organization1\src\main\java\ru\kabatov\storage\Storage.java
+E:\Java\Organization1\src\main\java\ru\kabatov\controller\UserController.java
+E:\Java\Organization1\src\main\java\ru\kabatov\storage\UsersStorage.java
+E:\Java\Organization1\src\main\java\ru\kabatov\domain\Positions.java
+E:\Java\Organization1\src\main\java\ru\kabatov\domain\Groups.java
+E:\Java\Organization1\src\main\java\ru\kabatov\domain\Users.java
+E:\Java\Organization1\src\main\java\ru\kabatov\storage\PositionsStorage.java
+E:\Java\Organization1\src\main\java\ru\kabatov\controller\SiteController.java
+E:\Java\Organization1\src\main\java\ru\kabatov\domain\Organization.java

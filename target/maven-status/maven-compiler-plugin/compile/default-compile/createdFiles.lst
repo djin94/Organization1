@@ -1,5 +1,11 @@
-ru\kabatov\controller\SiteController.class
+ru\kabatov\storage\GroupsStorage.class
+ru\kabatov\storage\Storage.class
 ru\kabatov\domain\Positions.class
 ru\kabatov\domain\Groups.class
+ru\kabatov\storage\UsersStorage.class
 ru\kabatov\controller\UserController.class
+ru\kabatov\domain\Organization.class
 ru\kabatov\domain\Users.class
+ru\kabatov\controller\SiteController.class
+ru\kabatov\storage\PositionsStorage.class
+ru\kabatov\domain\UserJoin.class

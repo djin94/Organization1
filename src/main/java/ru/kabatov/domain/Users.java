@@ -6,18 +6,19 @@ package ru.kabatov.domain;
 public class Users implements Organization{
     private int id;
     private String username;
-    private int groupId;
-    private int positionId;
+    private Groups group;
+    private Positions position;
 
     public Users() {
     }
 
-    public Users(int id, String username, int groupId, int positionId) {
+    public Users(int id, String username, Groups group, Positions position) {
         this.id = id;
         this.username = username;
-        this.groupId = groupId;
-        this.positionId = positionId;
+        this.group = group;
+        this.position = position;
     }
+
     @Override
     public int getId() {
         return id;
@@ -35,19 +36,19 @@ public class Users implements Organization{
         this.username = username;
     }
 
-    public int getGroupId() {
-        return groupId;
+    public Groups getGroup() {
+        return group;
     }
 
-    public void setGroupId(int groupId) {
-        this.groupId = groupId;
+    public void setGroup(Groups group) {
+        this.group = group;
     }
 
-    public int getPositionId() {
-        return positionId;
+    public Positions getPosition() {
+        return position;
     }
 
-    public void setPositionId(int positionId) {
-        this.positionId = positionId;
+    public void setPosition(Positions position) {
+        this.position = position;
     }
 }

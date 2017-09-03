@@ -8,9 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import ru.kabatov.domain.Groups;
-import ru.kabatov.domain.Users;
-
-import java.util.Collection;
+import java.util.List;
 
 public class GroupsStorage extends Storage<Groups>{
     private final SessionFactory factory;
@@ -22,7 +20,7 @@ public class GroupsStorage extends Storage<Groups>{
         factory = configuration.buildSessionFactory(serviceRegistry);
     }
     @Override
-    public Collection<Groups> values() {
+    public List<Groups> values() {
         final Session session = factory.openSession();
         Transaction tx = session.beginTransaction();
         try {

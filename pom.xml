@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.2.6.Final</version>
+            <version>4.3.9.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -92,6 +92,11 @@
                     <source>${jdk.version}</source>
                     <target>${jdk.version}</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.1.0</version>
             </plugin>
 
             <!-- embedded Jetty server, for testing -->

@@ -13,10 +13,8 @@
         </id>
 
         <property name="username" column="username" type="string"/>
-
-        <property name="positionId" column="position_id" type="string"/>
-
-        <property name="groupId" column="group_id" type="string"/>
+        <many-to-one name="Group" column="group_id" class="ru.kabatov.domain.Groups" cascade="save-update"/>
+        <many-to-one name="Position" column="position_id" class="ru.kabatov.domain.Positions" cascade="save-update"/>
 
     </class>
 </hibernate-mapping>

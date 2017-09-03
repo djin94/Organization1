@@ -8,20 +8,14 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import ru.kabatov.domain.Users;
-
-import java.util.Collection;
+import java.util.List;
 
 public class UsersStorage extends Storage<Users>{
-    private final SessionFactory factory;
     public UsersStorage() {
-        Configuration configuration = new Configuration();
-        configuration.configure();
-        ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
-                configuration.getProperties()).build();
-        factory = configuration.buildSessionFactory(serviceRegistry);
+    super();
     }
     @Override
-    public Collection<Users> values() {
+    public List<Users> values() {
         final Session session = factory.openSession();
         Transaction tx = session.beginTransaction();
         try {

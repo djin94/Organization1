@@ -10,7 +10,7 @@ import org.hibernate.service.ServiceRegistry;
 import ru.kabatov.domain.Positions;
 import ru.kabatov.domain.Users;
 
-import java.util.Collection;
+import java.util.List;
 
 public class PositionsStorage extends Storage<Positions>{
     private final SessionFactory factory;
@@ -22,7 +22,7 @@ public class PositionsStorage extends Storage<Positions>{
         factory = configuration.buildSessionFactory(serviceRegistry);
     }
     @Override
-    public Collection<Positions> values() {
+    public List<Positions> values() {
         final Session session = factory.openSession();
         Transaction tx = session.beginTransaction();
         try {

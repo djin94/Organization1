@@ -8,4 +8,3 @@ ru\kabatov\domain\Organization.class
 ru\kabatov\domain\Users.class
 ru\kabatov\controller\SiteController.class
 ru\kabatov\storage\PositionsStorage.class
-ru\kabatov\domain\UserJoin.class

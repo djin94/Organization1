@@ -18,8 +18,8 @@
         <tr valign="top">
             <td>${user.id}</td>
             <td>${user.username}</td>
-            <td>${user.position}</td>
-            <td>${user.group}</td>
+            <td>${user.position.title}</td>
+            <td>${user.group.title}</td>
         </tr>
     </c:forEach>
 </table>
